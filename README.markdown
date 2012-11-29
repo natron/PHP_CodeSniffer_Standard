@@ -8,5 +8,7 @@ Installation and Usage
 -----------------------
 
 * Install [PHP_CodeSniffer](http://pear.php.net/PHP_CodeSniffer) with `pear install PHP_CodeSniffer`.
+* Install the [Elgg CodeSniffer Standard](https://github.com/cash/elgg-coding-standards).
 * Checkout this repository as `NatronBaxter` into the `PHP/CodeSniffer/Standards` directory.
 * Use the coding standard with `phpcs --standard=NatronBaxter`.
+* Alternatively set it as the default coding standard with `phpcs --config-set default_standard=NatronBaxter`
