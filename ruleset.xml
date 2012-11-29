@@ -4,7 +4,9 @@
 
   <rul ref='Elgg' />
 
-  <rule ref="PEAR.Commenting.InlineComment"/>
+  <rule ref="Squiz.Commenting.ClassComment"/>
+  <rule ref="Squiz.Commenting.FunctionComment"/>
+  <rule ref="Squiz.Commenting.InlineComment"/>
 
   <rule ref="Generic.Files.LineEndings"/>
   <rule ref="Zend.Files.ClosingTag"/>
