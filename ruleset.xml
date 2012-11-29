@@ -5,7 +5,6 @@
   <rul ref='Elgg' />
 
   <rule ref="PEAR.Commenting.InlineComment"/>
-  <rule ref="PEAR.Commenting.FunctionComment"/>
 
   <rule ref="Generic.Files.LineEndings"/>
   <rule ref="Zend.Files.ClosingTag"/>
